@@ -16,7 +16,14 @@ hidden2(); // returns 1
 ***********************************************************************/
 
 // Your code here 
-
+const hiddenCounter = count => {
+  let counting = 0;
+  for(let i = 0; i < count; i++ ){
+    counting += 1
+  }
+  
+  return counting
+}
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
