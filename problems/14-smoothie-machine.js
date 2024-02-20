@@ -24,6 +24,16 @@ console.log(smoothie2("pineapple"));
 
 // Your code here 
 
+const smoothieMachine = (function(), ...params) => {
+  let sentence = "I'm having a smoothie with ";
+for(let i = 0; i < params.length; i++){
+  sentence = sentence + param[0];
+
+}
+
+
+}
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
   module.exports = smoothieMachine;
